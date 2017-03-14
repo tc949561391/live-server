@@ -1,0 +1,8 @@
+[2017-03-14 23:53:22.735] [DEBUG] debug - bin/index.js --->log4js init success
+[2017-03-14 23:53:22.737] [DEBUG] debug - bin/index.js --->log init with {"type":"console","makers":{}}
+[2017-03-14 23:53:22.738] [DEBUG] debug - bin/index.js --->log init with {"type":"dateFile","filename":"logs/","pattern":"info/yyyy-MM-dd.log","absolute":true,"category":"info","makers":{},"encoding":"utf8","mode":420,"flags":"a"}
+[2017-03-14 23:53:22.738] [DEBUG] debug - bin/index.js --->log init with {"type":"dateFile","filename":"logs/","pattern":"debug/yyyy-MM-dd.log","absolute":true,"category":"debug","makers":{},"encoding":"utf8","mode":420,"flags":"a"}
+[2017-03-14 23:53:22.738] [DEBUG] debug - bin/index.js --->log init with {"type":"dateFile","filename":"logs/","pattern":"warn/yyyy-MM-dd.log","absolute":true,"category":"warn","makers":{},"encoding":"utf8","mode":420,"flags":"a"}
+[2017-03-14 23:53:22.738] [DEBUG] debug - bin/index.js --->log init with {"type":"dateFile","filename":"logs/","pattern":"error/yyyy-MM-dd.log","absolute":true,"category":"error","makers":{},"encoding":"utf8","mode":420,"flags":"a"}
+[2017-03-14 23:53:22.742] [DEBUG] debug - bin/index.js --->socket.io-redis init success at host:localhost port:6379
+[2017-03-14 23:53:22.745] [DEBUG] debug - bin/index.js --->server start success on port 8080
