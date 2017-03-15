@@ -2,7 +2,7 @@
  * Created by Tristan on 17/3/14.
  */
 module.exports = {
-    server: {port: 8080},
+    server: {port: 3000},
     redis: {host: 'localhost', port: 6379},
     log4j: {
         appenders: [

@@ -4,8 +4,8 @@
 const server = require('http').createServer();
 const io = require('socket.io')(server);
 const logI = require('log4js').getLogger('info');
-const initChat = require('./namespace/chat')
-const initShare = require('./namespace/share')
+const initChat = require('./nsp/chat')
+const initShare = require('./nsp/share')
 
 io.use(function (socket, next) {
     // if (socket.request.headers.cookie) return next();
